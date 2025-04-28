@@ -7,8 +7,16 @@ cache_dir = '.\.cache'
 requirements = []
 [contracts.fee-management]
 path = 'contracts/fee-management.clar'
+clarity_version = 1
+epoch = 2.05
+
 [contracts.payment-processor]
 path = 'contracts/payment-processor.clar'
+clarity_version = 3
+epoch = 3.0
+
+[contracts.wallet-integration]
+path = 'contracts/wallet-integration.clar'
 clarity_version = 3
 epoch = 3.0
 [repl.analysis]
