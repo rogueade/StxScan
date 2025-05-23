@@ -5,8 +5,15 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+
+[contracts.payment-confirmation]
+path = 'contracts/payment-confirmation.clar'
+clarity_version = 3
+epoch = 3.0
+
 [contracts.fee-management]
 path = 'contracts/fee-management.clar'
+
 clarity_version = 1
 epoch = 2.05
 
