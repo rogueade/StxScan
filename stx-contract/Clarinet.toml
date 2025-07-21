@@ -25,6 +25,11 @@ path = 'contracts/refund-and-dispute.clar'
 clarity_version = 3
 epoch = 3.0
 
+[contracts.subscription-payment]
+path = 'contracts/subscription-payment.clar'
+clarity_version = 3
+epoch = 3.0
+
 [contracts.wallet-integration]
 path = 'contracts/wallet-integration.clar'
 clarity_version = 3
